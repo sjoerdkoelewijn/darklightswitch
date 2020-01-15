@@ -8,26 +8,34 @@ body {
 
 .three {background-image:url(3.jpg);}
 
+.four {background-image:url(4.jpg);}
+
+.image {
+	width:100%;
+	margin:0 auto;
+	height:100vh;
+	background-position: center;
+	background-size: cover;
+}
+
+.text {
+	width:70vw;
+	margin:10vh 5vw;
+	font-size:4rem;
+	line-height:150%;
+}
+
 .logo {
 	width:211px;
 	top:0;
 	left:0;
 	position:fixed;
-	background:black; 
 	padding:20px;
 	transition:background .8s ease;
 }
 
-.logo.background--dark {
-	background:none;	
-}
-
-.logo.background--light {
-	background:none;	
-}
-
 .logo path {
-	fill:white;
+	fill:black;
 	transition:all .8s ease
 }
 
@@ -41,20 +49,7 @@ body {
 	transition:all .8s ease	
 }
 
-.image {
-	width:100%;
-	margin:0 auto;
-	height:100vh;
-	background-position: center;
 
-}
-
-.text {
-	width:70vw;
-	margin:10vh 5vw;
-	font-size:4rem;
-	line-height:150%;
-}
 
 
   
